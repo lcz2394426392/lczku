@@ -1,0 +1,6 @@
+
+/* 把px转换成rem的函数 */
+
+@function rem($px){
+	@return $px/75px * 1rem;
+}
